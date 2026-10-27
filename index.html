@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Pragun Lal Shrestha, a third-year computer science student focused on web development.">
+    <title>Pragun Lal Shrestha — Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#">PLS<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#task-board">Tasks</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+
+    <main>
+      <section class="intro" id="about">
+        <img class="avatar" src="images/avatar.svg" alt="Illustrated profile avatar" width="112" height="112">
+        <p class="eyebrow">Computer Science · Web Development</p>
+        <h1>Pragun Lal <span>Shrestha.</span></h1>
+        <p class="bio">Third-year computer science student focused on developing responsive, accessible web experiences and practical front-end applications.</p>
+      </section>
+
+
+      <section class="projects" id="projects">
+        <div class="section-title">
+          <h2>Selected projects</h2>
+          <span>01 — 03</span>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="project-number">01</span>
+            <h3>Study Buddy</h3>
+            <p>A simple planner for keeping track of class assignments.</p>
+            <span class="tag">HTML · CSS</span>
+          </article>
+          <article class="project-card">
+            <span class="project-number">02</span>
+            <h3>Plant Pal</h3>
+            <p>A cheerful guide to remembering when to water your plants.</p>
+            <span class="tag">JavaScript</span>
+          </article>
+          <article class="project-card">
+            <span class="project-number">03</span>
+            <h3>Color Notes</h3>
+            <p>A tiny collection of palettes for future design projects.</p>
+            <span class="tag">CSS · Design</span>
+          </article>
+        </div>
+      </section>
+
+
+      <section class="task-board" id="task-board">
+        <p class="eyebrow">My workspace</p>
+        <h2>Weekly tasks</h2>
+        <!-- Add tasks here and show them in the list below. -->
+        <form id="task-form">
+          <input id="task-input" type="text" placeholder="Enter a task..." required>
+          <button type="submit">Add task</button>
+        </form>
+        <p id="task-preview">Type something and watch this update...</p>
+        <ul id="task-list" aria-live="polite"></ul>
+      </section>
+
+
+      <section class="contact" id="contact">
+        <p class="eyebrow">Have a project in mind?</p>
+        <h2>Let’s build something <span>meaningful.</span></h2>
+        <a href="mailto:hello@example.com">Say hello <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+
+    <footer>
+      <span>Pragun Lal Shrestha</span>
+      <span>Computer Science · Web Development</span>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
